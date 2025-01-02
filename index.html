@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desserts by Lianne Barraquio</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            document.getElementById('welcome-section').style.display = 'none';
+            document.getElementById('ingredients-section').style.display = 'none';
+            document.getElementById('about-section').style.display = 'none';
+
+            // Show the selected section
+            document.getElementById(sectionId).style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Desserts by Lianne Barraquio</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showSection('welcome-section')">Home</a>
+        <a href="#" onclick="showSection('ingredients-section')">Ingredients</a>
+        <a href="#" onclick="showSection('about-section')">About</a>
+    </nav>
+    <main>
+        <section id="welcome-section">
+            <h2>Welcome to Hidden Nook by Lianne Barraquio</h2>
+            <p>Discover a world of delightful desserts crafted with love and precision. Enjoy exploring our favorite recipes and ingredients!</p>
+        </section>
+
+        <section id="ingredients-section">
+            <div class="dessert">
+                <h2>Red velvet crinkles with cream cheese filling</h2>
+                <img src="https://scontent.fmnl9-6.fna.fbcdn.net/v/t1.15752-9/462650631_563081299873535_1819053015724878680_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeHRt1MmSq8E5v3fNEHSiE_SNv15rvk9S6I2_Xmu-T1LomJLCqh7t0p4zKME6HeGN6fdo-7qxqJ_JqQntCEW7jsh&_nc_ohc=PFZVYoJnCLYQ7kNvgFS7GCJ&_nc_zt=23&_nc_ht=scontent.fmnl9-6.fna&oh=03_Q7cD1gESdzye3UJ6CpH49uWIJbuqOZHOzXkbm7cRch-rjXoZlA&oe=67959650" alt="Red Velvet Crinkle">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>2 ½ cups (310g) all-purpose flour</li>
+                    <li>1/4 cup (25g) unsweetened cocoa powder</li>
+                    <li>1 tsp baking soda, 1/4 tsp salt</li>
+                    <li>1/2 cup (115g) unsalted butter, softened</li>
+                    <li>1 1/4 cups (250g) granulated sugar</li>
+                    <li>2 large eggs</li>
+                    <li>1 tbsp red food coloring</li>
+                    <li>1 tsp vanilla extract</li>
+                    <li>1/2 cup (120g) buttermilk</li>
+                    <li>Powdered sugar (for coating)</li>
+                    <p>For Cream Cheese:</p>
+                    <li>8 oz (225g) cream cheese, softened</li>
+                    <li>1/4 cup (50g) granulated sugar</li>
+                    <li>1 tsp vanilla extract</li>
+                </ul>
+            </div>
+
+            <div class="dessert">
+                <h2>Chocolate Coated Graham Treats</h2>
+                <img src="https://scontent.fmnl9-3.fna.fbcdn.net/v/t1.15752-9/466877389_575145851812679_6275091309043842925_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGRnFTWN1eLaUIUPuUwSgMqVEm3sw-HjZ9USbezD4eNnzmT9m1KDptbOa9NeIQnzhJ9IsTnvhfb4bTEGpXwdEwt&_nc_ohc=EJ9E8yv4Y_EQ7kNvgGISQ9-&_nc_zt=23&_nc_ht=scontent.fmnl9-3.fna&oh=03_Q7cD1gGsYONVg8c2168yMDTNSApN1lU0FcjrjxZMqHQ4NLLQyA&oe=6795B5C4" alt="Graham Balls">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>2 cups (200g) crushed graham crackers</li>
+                    <li>1/2 cup (120ml) condensed milk</li>
+                    <li>1/4 cup (60ml) evaporated milk or fresh milk (optional, for texture adjustment)</li>
+                    <li>1/4 tsp vanilla extract (optional, for added flavor)</li>
+                    <li>Mini marshmallows (for filling, optional)</li>
+                    <p>For Coating:</p>
+                    <li>1 cup (200g) melted chocolate (milk, dark, or white, as preferred)</li>
+                    <li>Assorted sprinkles (rainbow, chocolate, or themed sprinkles)</li>
+                    <li>Crushed nuts (optional)</li>
+                    <li>Shredded coconut (optional)</li>
+                </ul>
+            </div>
+            
+            <div class="dessert">
+                <h2>Stylish Chocolate Cake</h2>
+                <img src="https://scontent.fmnl13-4.fna.fbcdn.net/v/t1.15752-9/470053575_624281806609192_5696594978435949269_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGgvZ9BfpVDroSP9KmuVgIWX9QtHLluzDVf1C0cuW7MNXmS75G2KB1biRQwX1QvRBRbwx_4xNJjlv_Sc0wgDKH6&_nc_ohc=mbldkolIyNYQ7kNvgHt_6TX&_nc_zt=23&_nc_ht=scontent.fmnl13-4.fna&oh=03_Q7cD1gGccTbXi0UGfNf3QFbuv4gi24CDfJk0AtboYrkc0PrzFg&oe=6795A355" alt="Chocolate Cake">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 ½ cups (190g) all-purpose flour</li>
+                    <li>1 cup (200g) granulated sugar</li>
+                    <li>1/4 cup (25g) unsweetened cocoa powder</li>
+                    <li>1 tsp baking powder</li>
+                    <li>1/2 tsp baking soda</li>
+                    <li>1/4 tsp salt</li>
+                    <li>2 large eggs</li>
+                    <li>1/2 cup (120ml) buttermilk (or substitute with 1/2 cup milk + 1/2 tsp vinegar, let sit for 5 mins)</li>
+                    <li>1/4 cup (60ml) vegetable oil</li>
+                    <li>1 tsp vanilla extract</li>
+                    <li>1/2 cup (120ml) hot water or hot coffee (for enhanced chocolate flavor)</li>
+                    <p>For the Frosting:</p>
+                    <li>1 cup (225g) unsalted butter, softened</li>
+                    <li>3 ½ cups (440g) powdered sugar</li>
+                    <li>1/2 cup (50g) cocoa powder</li>
+                    <li>1/4 cup (60ml) heavy cream or milk (adjust for consistency)</li>
+                    <li>1 tsp vanilla extract</li>
+                    <li>Pinch of salt</li>
+                    <li>Gold Flakes</li>
+                </ul>
+            </div>
+
+            <div class="dessert">
+                <h2>Number Cake</h2>
+                <img src="https://scontent.fmnl13-1.fna.fbcdn.net/v/t1.15752-9/467046328_643808211306900_1185488002411328456_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeE8XRTKtLsXReUwYK_QAuEPJ5Bi9N3KrzYnkGL03cqvNqhD4roYZFVnCaMpzB5bwuzns6ZDAvdEuSnoyvVakS8t&_nc_ohc=F0XMBvwjYMsQ7kNvgE0tjF5&_nc_zt=23&_nc_ht=scontent.fmnl13-1.fna&oh=03_Q7cD1gGV0QR3tGakS_Lt7b9yrb9u78n5iTCwHzUQrCqMY_pGXw&oe=6795CA2E" alt="Number Cake">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>2 ½ cups (320g) all-purpose flour</li>
+                    <li>1 cup (100g) unsweetened cocoa powder</li>
+                    <li>2 tsp baking powder</li>
+                    <li>1 ½ tsp baking soda</li>
+                    <li>1/2 tsp salt</li>
+                    <li>1 ½ cups (300g) granulated sugar</li>
+                    <li>4 large eggs</li>
+                    <li>1 cup (240ml) buttermilk (or 1 cup milk + 1 tbsp vinegar, let sit for 5 minutes)</li>
+                    <li>1 cup (240ml) vegetable oil</li>
+                    <li>2 tsp vanilla extract</li>
+                    <li>1 cup (240ml) hot water or coffee (to enhance the chocolate flavor)</li>
+                    <p>For the Frosting:</p>
+                    <li>2 cups (450g) unsalted butter, softened</li>
+                    <li>4 cups (500g) powdered sugar</li>
+                    <li>1 cup (100g) cocoa powder</li>
+                    <li>1/4 cup (60ml) heavy cream or milk (adjust as needed)</li>
+                    <li>2 tsp vanilla extract</li>
+                    <li>Pinch of salt</li>
+                    <p>For the Toppings:</p>
+                    <li>Assorted chocolate snacks (KitKat, Ferrero Rocher, M&Ms, Oreos, etc.)</li>
+                    <li>Chocolate sprinkles</li>
+                    <li>Mini marshmallows (optional)</li>
+
+                </ul>
+            </div>
+
+            <div class="dessert">
+                <h2>Mocha Cake</h2>
+                <img src="https://scontent.fmnl13-1.fna.fbcdn.net/v/t1.15752-9/470050687_608942835145138_2451082438654694449_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeFTUHlVKoGnMijxdfq-XuYbElSNhhKyCcUSVI2GErIJxWbl5C-t-yw5tfXA7ahH-9Nspxw0r3xLXDjqAuvtScoR&_nc_ohc=YyZdOTUIbk0Q7kNvgFbLlys&_nc_zt=23&_nc_ht=scontent.fmnl13-1.fna&oh=03_Q7cD1gGKdqOLpgMphTXQVz7a2gHNYpJQ_HWf5RGXQ9FnHotojA&oe=6795BFA3" alt="Mocha Cake">
+                <h3>Ingredients:</h3>
+                <ul>
+                    <li>1 ½ cups (190g) all-purpose flour</li>
+                    <li>1 cup (200g) granulated sugar</li>
+                    <li>1/4 cup (25g) unsweetened cocoa powder</li>
+                    <li>1 tsp baking powder</li>
+                    <li>1/2 tsp baking soda</li>
+                    <li>1/4 tsp salt</li>
+                    <li>2 large eggs</li>
+                    <li>1/2 cup (120ml) buttermilk (or 1/2 cup milk + 1/2 tsp vinegar, let sit for 5 mins)</li>
+                    <li>1/4 cup (60ml) vegetable oil</li>
+                    <li>1 tsp vanilla extract</li>
+                    <li>1 tbsp instant coffee or espresso powder dissolved in 1/2 cup (120ml) hot water</li>
+                    <p>For the Mocha cream:</p>
+                    <li>1 cup (225g) unsalted butter, softened</li>
+                    <li>3 cups (360g) powdered sugar</li>
+                    <li>1/4 cup (25g) cocoa powder</li>
+                    <li>2 tsp instant coffee or espresso powder dissolved in 2 tbsp hot water</li>
+                    <li>2 tbsp heavy cream or milk (adjust for consistency)</li>
+                    <li>1 tsp vanilla extract</li>
+                    <li>Pinch of salt</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about-section">
+            <h2>About the Chef</h2>
+            <img src="https://scontent.fmnl9-2.fna.fbcdn.net/v/t1.15752-9/470051848_27972201095759726_2847355501596392407_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEzahPoESRBQegHgY40Mora8g3ySgNgJ4DyDfJKA2AngBKWk74w3OwkiK3ldcThwZMQQKDsyvSW4C9j2xRYeNR4&_nc_ohc=0ZaYNjQhjScQ7kNvgGJ3aY1&_nc_zt=23&_nc_ht=scontent.fmnl9-2.fna&oh=03_Q7cD1gFZ1Fc02uRgWdbaxenzbJ6JWv3fmmR7-8hb7z7t6cI6Rg&oe=6795B380" alt="Lianne Barraquio">
+            <p>Lianne Barraquio is a passionate pastry chef who loves crafting delightful desserts that bring joy to everyone. With years of experience in baking and a creative flair, her recipes are a testament to her dedication and skill.</p>
+            
+            <div class="chef-gallery">
+                <img src="https://scontent.fmnl9-6.fna.fbcdn.net/v/t1.15752-9/423472251_952043043142465_3477642412842682211_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGCINZXcD8o15eoMkG7LBbXDWdjAJg78NwNZ2MAmDvw3Gyu2T1jBzPt4Ehq4gHup7bcbLscQ2fRiH5Vqq0amq3q&_nc_ohc=GY5jW7FoxXUQ7kNvgFQ8Brc&_nc_zt=23&_nc_ht=scontent.fmnl9-6.fna&oh=03_Q7cD1gEjn3VkepZpY7jjw1IqiP5kBNUsHj6KFkZZroH5Q6b8qg&oe=67958FD2" alt="Chef in Action 1">
+                <img src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.15752-9/470051844_1630148557937307_8609869198421811717_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeEpebi6WWe1HnPPyWKrH5mtoW9lSC0PE6yhb2VILQ8TrGO9sxlgkKoWkVULf7VJy3X_su91fIf1VFFuIqLZUxhe&_nc_ohc=UrOQ0bkt7sEQ7kNvgFgUA7t&_nc_zt=23&_nc_ht=scontent.fmnl9-4.fna&oh=03_Q7cD1gGrsTf9w1WrRIq0AsrTurU0jds7MCKjrbYiokkD5c6Lzw&oe=6795861F" alt="Chef in Action 2">
+                <img src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t1.15752-9/467421076_603472262069440_1611997365310757070_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGQ2BPDuDBQ9L6Y7zward9o3vybqg4NgE_e_JuqDg2AT4yWFsZVTVpNAd5Lxu9HvpPE7v3KLM8I5o3-S4S7_gon&_nc_ohc=68DbenEdDkoQ7kNvgHPqqWO&_nc_zt=23&_nc_ht=scontent.fmnl9-4.fna&oh=03_Q7cD1gGq9aa5UUM4pzOGtQcC-v9V6fpqHz4VYycioQ9cIUUGYA&oe=67958FAE" alt="Chef in Action 3">
+            </div>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><strong>Address:</strong> Halang, Calamba City, Laguna</p>
+                <p><strong>Email:</strong> hiddennook.bakesnbrew@gmail.com</p>
+                <p><strong>Phone:</strong> 09954819384</p>
+                <p><strong>Instagram:</strong> hiddennook.bnb</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact us at: desserts@liannebarraquio.com | Follow us on social media</p>
+    </footer>
+    <div class="bot">
+        <div class="chatbot">
+          <div class="chat-header" onclick="toggleChatBody()">Chat with us!</div>
+          <div class="chat-body" id="chatBody">
+              <div id="chatMessages"></div>
+              <div class="chat-footer">
+                  <input type="text" id="userInput" placeholder="Type a message..." onkeypress="handleEnterKey(event)">
+                  <button onclick="sendMessage()">Send</button>
+              </div>
+          </div>
+      </div>
+      </div>
+    
+      <script>
+        const chatBody = document.getElementById('chatBody');
+      
+      function toggleChatBody() {
+        console.log("Header clicked!");
+        chatBody.style.display = chatBody.style.display === 'block' ? 'none' : 'block';
+      }
+      
+      
+            function handleEnterKey(event) {
+                if (event.key === 'Enter') {
+                    sendMessage();
+                }
+            }
+      
+            const chatMessages = document.getElementById('chatMessages');
+      
+            function appendMessage(content, className) {
+                const messageDiv = document.createElement('div');
+                messageDiv.textContent = content;
+                messageDiv.className = className;
+                chatMessages.appendChild(messageDiv);
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }
+      
+            function sendMessage() {
+                const userInput = document.getElementById('userInput');
+                const userMessage = userInput.value.trim();
+      
+                if (userMessage) {
+                    appendMessage(userMessage, 'user-message');
+                    userInput.value = '';
+                    botReply(userMessage);
+                }
+            }
+      
+            function botReply(message) {
+                const lowerCaseMessage = message.toLowerCase();
+                let botMessage;
+      
+                if (lowerCaseMessage.includes('hello')) {
+                    botMessage = 'Hi there! How can I help you today?';
+                } else if (lowerCaseMessage.includes('how are you')) {
+                    botMessage = 'I am just a bot, but I am doing great! How about you?';
+                } else if (lowerCaseMessage.includes('bye')) {
+                    botMessage = 'Goodbye! Have a great day!';
+                } else {
+                    botMessage = "I'm not sure how to respond to that. Can you rephrase?";
+                }
+      
+                appendMessage(botMessage, 'bot-message');
+            }
+      
+      </script>
+</body>
+</html>
